@@ -23,6 +23,14 @@
 			"problemMatcher": [],
 			"label": "npm: install",
 			"detail": "install dependencies from package"
+		},
+		{
+			"type": "npm",
+			"script": "esbuild",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: esbuild",
+			"detail": "npm run esbuild-base -- --sourcemap"
 		}
 	]
 }
